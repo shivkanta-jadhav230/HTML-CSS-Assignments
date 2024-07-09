@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details Form</title>
+</head>
+<body>
+    <center>
+        <form action="" method="">
+            <table cellpadding="10" bgcolor=limegreen>
+                <tr>
+                    <td colspan="2" align="center">
+                        <font size="5" color="red"><b>Personal Details</b></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Email ID:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+                        <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact:</td>
+                    <td><input type="text" name="contact"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <font size="5" color="red"><b>Educational Qualifications</b></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Degree:</td>
+                    <td>
+                        <select name="degree">
+                            <option>Select Group</option>
+                            <option>Bachelor</option>
+                            <option>Master</option>
+                            <option>PhD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Department:</td>
+                    <td>
+                        <select name="department">
+                            <option>Select Group</option>
+                            <option>Computer Science</option>
+                            <option>Electrical Engineering</option>
+                            <option>Mechanical Engineering</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobbies:</td>
+                    <td>
+                        <input type="checkbox" name="hobbies" value="playing chess" id="chess"><label for="chess">Playing chess</label><br>
+                        <input type="checkbox" name="hobbies" value="reading books" id="books"><label for="books">Reading Books</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <font size="5" color="red"><b>Address</b></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <textarea name="address" rows="10" cols="50"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
