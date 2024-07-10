@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.highlight {
+    color: #1656AD; /* Change this to your desired color */
+    font-weight: bold;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: auto;
+}
+
+.image-container {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+}
+
+section h2 {
+    background-color: #c6dbf2;
+    color: #1656AD;
+    padding: 5px;
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+table {
+    width: 70%;   
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {      
+    border: 1px solid black;
+    padding: 5px;
+}
+
+form input[type="text"] {
+    margin-bottom: 5px;
+}
+
+form input[type="submit"] {
+    background-color: grey;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
