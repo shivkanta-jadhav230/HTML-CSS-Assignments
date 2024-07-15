@@ -1,0 +1,103 @@
+* {  
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f4f4f4; /* Optional background color */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: #414141;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar .profile-pic {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('profile-pic-placeholder.png'); /* Replace with actual profile picture */
+    background-position: center;
+    
+}
+
+.sidebar h3 {
+    margin: 10px 0;
+}
+
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.main-content {
+    flex: 1;
+    padding-top: 0;
+    padding-left: 10px;
+    
+}
+
+.about table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #414141;
+}
+
+.about td {
+    padding-bottom: 10px;
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    background: #0a7a88;
+    padding: 10px 0;
+    margin-bottom: 2px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.about, .recent-projects {
+    background: white;
+    color: #414141;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
